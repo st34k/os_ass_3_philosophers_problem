@@ -1,5 +1,6 @@
 public class Philosopher implements Runnable {
      private final int id;
+
      private enum Actions {EATING, THINKING, HUNGRY}
 
      private Actions action;
